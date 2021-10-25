@@ -1,0 +1,37 @@
+/* --- join start --*/
+.join {
+  background-image: url("../images/pattern.jpg");
+  color: #fff;
+}
+
+.join .joinTitle {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.join .joinTitle span {
+  font-weight: 800;
+}
+
+.join button {
+  margin-top: 20px;
+  border: 0;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.join button:hover {
+  letter-spacing: 2px;
+}
+
+.join .joinNow {
+  margin-right: 10px;
+  background-color: #424242;
+  color: #fff;
+}
+
+.join .adoptBtn {
+  background-color: var(--grey);
+}

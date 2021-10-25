@@ -1,0 +1,81 @@
+/* About style start*/
+
+#aboutSection .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  position: relative;
+  height: 245px;
+}
+
+#aboutSection .container .cards > div {
+  width: 350px;
+  padding: 35px;
+  background-color: var(--grey);
+  padding: 35px;
+  color: #444;
+  text-align: center;
+  border-radius: 5px;
+  height: 215px;
+  border: none;
+  transition: 0.3s;
+}
+
+#aboutSection .container .cards > div:hover {
+  width: 400px;
+  margin-top: -20px;
+  padding: 55px;
+  height: auto;
+}
+
+#aboutSection .container .cards > div .title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#aboutSection .container .cards > div p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.cards > div > button:hover {
+  color: #000;
+  border: 1px solid var(--themeRed);
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 1080px) {
+  #aboutSection .container .cards {
+    justify-content: space-around;
+    height: auto;
+  }
+
+  #aboutSection .container .cards > div {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #aboutSection .container .cards > div {
+    width: 340px;
+    height: 200px;
+  }
+
+  #aboutSection .container .cards > div:hover {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  #aboutSection p {
+    text-align: justify;
+  }
+
+  #aboutSection .container .cards > div:hover {
+    width: 400px;
+    margin-top: 10px;
+    padding: 35px;
+  }
+}

@@ -1,0 +1,113 @@
+/* Program style start*/
+.programs {
+  background-color: #e2e2e2;
+}
+
+.programs .boxContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+
+.programs .boxContainer .box {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 #c5c5c5;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.programs .boxContainer .box .cardImage {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
+.programs .boxContainer .box .cardImage:after {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+
+.programs .boxContainer .box:nth-child(1) .cardImage,
+.programs .boxContainer .box:nth-child(1) .cardImage:after {
+  background-image: url(../images/programs/1.jpg);
+}
+
+.programs .boxContainer .box:nth-child(2) .cardImage,
+.programs .boxContainer .box:nth-child(2) .cardImage:after {
+  background-image: url(../images/programs/2.jpg);
+}
+
+.programs .boxContainer .box:nth-child(3) .cardImage,
+.programs .boxContainer .box:nth-child(3) .cardImage:after {
+  background-image: url(../images/programs/3.jpg);
+}
+
+.programs .boxContainer .box:nth-child(4) .cardImage,
+.programs .boxContainer .box:nth-child(4) .cardImage:after {
+  background-image: url(../images/programs/4.jpg);
+}
+
+.programs .boxContainer .box:hover .cardImage::after {
+  top: 100%;
+}
+
+.programs .boxContainer .box .programTitle {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+.programs .boxContainer .box .donationCount {
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+}
+
+.programs .boxContainer .box .donationCount span {
+  color: var(--themeRed);
+}
+
+.programs .boxContainer .box button {
+  position: absolute;
+  left: 50%;
+  border-radius: 60px;
+  transform: translate(-50%);
+  bottom: -15px;
+  border: 0;
+  outline: none;
+  transition: 0.1s linear;
+}
+
+.programs .boxContainer .box button:hover {
+  letter-spacing: 1px;
+  width: 8.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .programs .boxContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .programs .boxContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
