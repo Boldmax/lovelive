@@ -54,7 +54,7 @@ const Footer = () => {
                         <div className="footer-col">
                             <h4>Follow us</h4>
                             <div className="social-links">
-                                <a href="https://facebook.com">< FaFacebook className=" social" /></a>
+                                <a href="https://facebook.com"><FaFacebook className=" social" /></a>
                                 <a href="https://twitter.com"><FaTwitter className=" social" /></a>
                                 <a href="https://instagram.com"><FaInstagram className=" social" /></a>
                             </div>

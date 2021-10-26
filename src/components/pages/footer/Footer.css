@@ -72,7 +72,6 @@ ul {
   border-radius: 50%;
   color: #fff;
   transition: all 0.5s ease;
-  color: #ee4433;
 }
 
 .footer-col .social-links a:hover {
@@ -80,9 +79,10 @@ ul {
   background-color: #fff;
 }
 
-.footer-col .social-links > i {
-  font-size: 9rem;
+.footer-col .social-links .social {
+  font-size: 2rem;
   color: #ee4433;
+  margin-top: 0.3rem;
 }
 
 @media screen and (max-width: 768px) {
