@@ -1,10 +1,10 @@
 import "./Message.css";
-import { FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Message = () => {
     return (
         <div className="message">
-            <a href="#whatsapp"><FaEnvelope className="whatsapp" /></a>
+            <a href="#whatsapp"><FaWhatsapp className="whatsapp" /></a>
         </div>
     )
 }
