@@ -10,6 +10,8 @@ import Join from './components/pages/join/Join';
 import LandingPage from './components/pages/landingPage/LandingPage';
 import Program from './components/pages/program/Program';
 import Donation from './components/queryForms/donation/Donation';
+import Volunteer from './components/queryForms/volunteer/Volunteer';
+import Message from './components/queryForms/message/Message';
 
 function App() {
 
@@ -18,15 +20,23 @@ function App() {
     setToggle(!toggle)
   };
 
+  // volunteer
+  const [open, setOpen] = useState(true);
+  const volunt = () => {
+    setOpen(!open)
+  };
+
   return (
     <div>
       <Donation toggle={toggle} popUp={popUp} />
+      <Volunteer open={open} volunt={volunt} />
+      <Message />
       <LandingPage />
       <About popUp={popUp} />
       <Program popUp={popUp} />
       <Education />
       <Gallery />
-      <Join />
+      <Join volunt={volunt} />
       <Footer />
     </div>
   );

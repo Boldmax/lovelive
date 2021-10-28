@@ -1,6 +1,6 @@
 import "./Join.css";
 
-const Join = () => {
+const Join = ({ volunt }) => {
     return (
         <section className="join" id="joinSection">
             <div className="container">
@@ -13,7 +13,7 @@ const Join = () => {
                     laudantium ut doloribus magnam, tempore obcaecati repellendus
                     corporis similique illum ullam enim, dolorem neque eveniet?
             </p>
-                <button className="joinNow">JOIN US</button>
+                <button className="joinNow" onClick={volunt}>JOIN US</button>
                 <button className="adoptBtn">ADOPT A CHILD</button>
             </div>
         </section>
