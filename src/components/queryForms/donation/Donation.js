@@ -8,7 +8,7 @@ const Donation = ({ toggle, popUp }) => {
     toggle ? navbarClas.push("active") : navbarClas.join(" ")
 
     return (
-        <div className={navbarClas.join(" ")} onClick={popUp}>
+        <div className={navbarClas.join(" ")}>
             <div className="topbar">
                 <img src={logo} alt="Logo" />
                 <FaTimes className="times" onClick={popUp} />
