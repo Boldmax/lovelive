@@ -13,7 +13,7 @@ import Donation from './components/queryForms/donation/Donation';
 
 function App() {
 
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   const popUp = () => {
     setToggle(!toggle)
   };
