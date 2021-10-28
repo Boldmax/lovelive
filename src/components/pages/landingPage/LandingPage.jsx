@@ -7,7 +7,6 @@ const LandingPage = () => {
     const [toggle, setToggle] = useState(false);
     const navShow = () => {
         setToggle(!toggle)
-        console.log("clck click! ")
     };
 
     let navbarClas = ["navbar"];

@@ -1,6 +1,6 @@
 import "./About.css";
 
-const About = () => {
+const About = ({ popUp }) => {
     return (
         <section className="fullContainer" id="aboutSection">
             <div className="container">
@@ -23,7 +23,7 @@ const About = () => {
                             <h3>Give donation</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <button>donate now</button>
+                        <button onClick={popUp}>donate now</button>
                     </div>
 
                     <div className="volunteerBox">
@@ -31,7 +31,7 @@ const About = () => {
                             <h3>Become a volunteer</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <button>become now</button>
+                        <button onClick={popUp}>become now</button>
                     </div>
 
                     <div className="scholarshipBox">
@@ -39,7 +39,7 @@ const About = () => {
                             <h3>Give scholarship</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <button>give now</button>
+                        <button onClick={popUp}>give now</button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,114 @@
+.donation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #fff;
+  border-radius: 20px 1px 20px 1px;
+  left: 30%;
+  top: 15%;
+  width: 35%;
+  z-index: 100;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar img {
+  padding: 15px 0;
+  height: 3.5rem;
+}
+
+.donation .topbar,
+.botomBar {
+  height: 3.5rem;
+  background-color: var(--themeRed);
+  width: 100%;
+  border-radius: 20px 1px 20px 1px;
+}
+
+.donation .donation-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation .donation-box input,
+.donation .donation-box select {
+  width: 70%;
+  margin: 15px;
+  height: 2.5rem;
+  border: 2px solid #000;
+  font-size: 1rem;
+  padding-left: 1rem;
+  border-radius: 20px 1px 20px 1px;
+  outline: none;
+}
+
+.donation .donation-box select option {
+  width: 20rem;
+  background-color: var(--themeRed);
+}
+
+.donation .donation-box form button {
+  width: 70%;
+  margin: 2rem auto;
+  border-radius: 20px 1px 20px 1px;
+  outline: none;
+  padding: 13px;
+}
+
+.botomBar {
+  display: flex;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 1px 20px 1px;
+}
+
+.donation .donation-box h3 {
+  display: block;
+  width: 70%;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.topbar .times {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.donation.active {
+  top: -85%;
+}
+
+@media screen and (max-width: 800px) {
+  .donation {
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .donation {
+    left: 10%;
+    top: 15%;
+    width: 80%;
+    transition: 0.5s;
+  }
+
+  .donation .donation-box h3 {
+    font-size: 0.8rem;
+  }
+
+  .topbar .times {
+    display: flex;
+    margin: 20px;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+  }
+}

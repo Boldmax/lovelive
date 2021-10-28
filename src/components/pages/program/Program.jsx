@@ -1,6 +1,6 @@
 import "./Program.css";
 
-const Program = () => {
+const Program = ({ popUp }) => {
     return (
         <section className="programs" id="progressSection">
             <div className="container">
@@ -15,7 +15,7 @@ const Program = () => {
                         <div className="donationCount">
                             Donation Goal : <span>&#x20A6;100,000</span>
                         </div>
-                        <button>Donate now</button>
+                        <button onClick={popUp}>Donate now</button>
                     </div>
 
                     <div className="box">
@@ -26,7 +26,7 @@ const Program = () => {
                         <div className="donationCount">
                             Donation Goal : <span>&#x20A6;100,000</span>
                         </div>
-                        <button>Donate now</button>
+                        <button onClick={popUp}>Donate now</button>
                     </div>
 
                     <div className="box">
@@ -37,7 +37,7 @@ const Program = () => {
                         <div className="donationCount">
                             Donation Goal : <span>&#x20A6;100,000</span>
                         </div>
-                        <button>Donate now</button>
+                        <button onClick={popUp}>Donate now</button>
                     </div>
 
                     <div className="box">
@@ -48,7 +48,7 @@ const Program = () => {
                         <div className="donationCount">
                             Donation Goal : <span>&#x20A6;100,000</span>
                         </div>
-                        <button>Donate now</button>
+                        <button onClick={popUp}>Donate now</button>
                     </div>
                 </div>
 
