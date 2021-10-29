@@ -11,7 +11,7 @@
 }
 
 .donation.active {
-  top: -85%;
+  top: -100%;
 }
 
 .topbar {
@@ -22,6 +22,7 @@
 .topbar img {
   padding: 15px 0;
   height: 3.5rem;
+  border-radius: 50%;
 }
 
 .donation .topbar,

@@ -1,5 +1,5 @@
 import "./LandingPage.css";
-import Logo from "../images/logo.png";
+import Logo from "../images/logo1.jpg";
 import { useState } from "react";
 
 const LandingPage = () => {

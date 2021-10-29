@@ -14,19 +14,19 @@
   bottom: 11%;
 }
 
-a .whatsapp {
-  font-size: 4rem;
+.whatsapp {
+  font-size: 3rem;
   color: rgb(48, 255, 41);
   text-decoration: none;
 }
 
-a .whatsapp:hover,
+/* a .whatsapp:hover,
 a .whatsapp:focus {
   border-bottom: none;
-}
+} */
 
-@media screen and (max-width: 968px) {
-  .message > a .whatsapp {
+@media screen and (max-width: 768px) {
+  .whatsapp {
     font-size: 2.5rem;
   }
 }

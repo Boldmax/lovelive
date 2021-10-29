@@ -19,6 +19,7 @@ header .container .logo {
 
 header .container .logo img {
   height: 100%;
+  border-radius: 50%;
 }
 
 header nav ul {

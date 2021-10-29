@@ -1,5 +1,5 @@
 import "./Volunteer.css";
-import logo from "../../pages/images/logo.png";
+import logo from "../../pages/images/logo1.jpg";
 import { FaTimes } from "react-icons/fa";
 
 const Volunteer = ({ volunt, open }) => {
@@ -20,7 +20,6 @@ const Volunteer = ({ volunt, open }) => {
                     <input type="text" placeholder="First Name" />
                     <input type="text" placeholder="Last Name" />
                     <input type="text" placeholder="Phone Number" />
-                    {/* <input type="text" placeholder="Amount Donated" /> */}
 
                     <select placeholder="Donation For" >
                         <option value="scholarship">Scholarship</option>

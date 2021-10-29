@@ -1,5 +1,5 @@
 import "./Donation.css";
-import logo from "../../pages/images/logo.png";
+import logo from "../../pages/images/logo1.jpg";
 import { FaTimes } from "react-icons/fa";
 
 const Donation = ({ toggle, popUp }) => {
