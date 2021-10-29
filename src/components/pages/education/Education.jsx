@@ -1,5 +1,5 @@
 import "./Education.css";
-import Video from "../video/InShot_20211022_205100800.mp4";
+import Video from "../video/childrens_428x240.mp4";
 
 const Education = () => {
     return (
