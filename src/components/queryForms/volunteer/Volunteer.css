@@ -117,4 +117,14 @@
     font-size: 1.5rem;
     justify-content: flex-end;
   }
+
+  .volunteer.active {
+    top: -180%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .volunteer.active {
+    top: -120%;
+  }
 }

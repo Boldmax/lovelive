@@ -31,7 +31,7 @@ const Volunteer = ({ volunt, open }) => {
 
             </div>
 
-            <div className="botomBar">Thank you for your donation</div>
+            <div className="botomBar">Thank you for your volunteer</div>
         </div>
     )
 }

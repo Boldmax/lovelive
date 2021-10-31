@@ -167,6 +167,12 @@ a:focus {
     font-size: 14px;
   }
 
+  #homePage {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .banner > div > p,
   .banner > div > h1 {
     width: 95%;
