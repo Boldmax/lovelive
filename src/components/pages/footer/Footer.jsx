@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaCopyright } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -59,6 +59,10 @@ const Footer = () => {
                                 <a href="https://instagram.com"><FaInstagram className=" social" /></a>
                             </div>
                         </div>
+
+                        <div className="footer-col">
+                            <h4>&copy; LiveLove Foundation</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,4 +70,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;

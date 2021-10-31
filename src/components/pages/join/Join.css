@@ -1,7 +1,8 @@
 /* --- join start --*/
 .join {
-  background-image: url("../images/pattern.jpg");
+  /* background-image: url("../images/pattern.jpg"); */
   color: #fff;
+  background-color: var(--themeRed);
 }
 
 .join .joinTitle {
