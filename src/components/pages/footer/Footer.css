@@ -81,7 +81,7 @@ ul {
 
 .footer-col .social-links .social {
   font-size: 2rem;
-  color: #ee4433;
+  color: var(--themeRed);
   margin-top: 0.3rem;
 }
 
