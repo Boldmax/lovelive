@@ -2,7 +2,7 @@
 .join {
   /* background-image: url("../images/pattern.jpg"); */
   color: #fff;
-  background-color: #db0c74;
+  background-color: var(--themeRed);
 }
 
 .join .joinTitle {
