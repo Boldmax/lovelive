@@ -14,7 +14,7 @@ const Join = ({ volunt }) => {
                     corporis similique illum ullam enim, dolorem neque eveniet?
             </p>
                 <button className="joinNow" onClick={volunt}>JOIN US</button>
-                <button className="adoptBtn">ADOPT A CHILD</button>
+                <button className="adoptBtn" onClick={volunt}>ADOPT A CHILD</button>
             </div>
         </section>
     )
