@@ -1,6 +1,6 @@
 import "./Gallery.css";
 import gallery1 from "../images/gallery/1.jpg";
-import gallery2 from "../images/gallery/image2.jpg";
+import gallery2 from "../images/gallery/2.jpg";
 import gallery3 from "../images/gallery/3.jpg";
 import gallery4 from "../images/gallery/4.jpg";
 import gallery5 from "../images/gallery/5.jpg";
