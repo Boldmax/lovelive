@@ -1,5 +1,5 @@
 import "./LandingPage.css";
-import Logo from "../images/logo1.jpg";
+import Logo from "../images/logo.jpg";
 import { useState } from "react";
 
 const LandingPage = () => {
@@ -47,16 +47,17 @@ const LandingPage = () => {
 
 
             <div className="container">
-                <h1>Together we can <span>save lives</span></h1>
+                <h1>Livelove Foundation  <span>...we live to love, we love to live...</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Ducimus veritatis asperiores accusamus,
-                    sapiente explicabo esse atque expedita ipsam porro.
-                    Voluptatibus assumenda dignissimos vero excepturi
-                    voluptatum, ratione unde inventore quibusdam nam?
-            </p>
+                    effect of sexual assault, domestic violence and child abuse are detrimental and
+                    could be fatal in some cases. Our society will be a better place to live as an individual or a community if we join
+                    hands together to prevent the occurence, address the incident as well as give support to survivors
+                    in their recovery process and ensure they can stand as loved and accepted members of the society.
+                </p>
 
-                <button id="homePage">start with a little</button>
+                {/* <p>"We are on mission to build a community of young people living purposefully and in all areas of life"</p> */}
+
+                {/* <button id="homePage">start with a little</button> */}
             </div>
 
         </div>

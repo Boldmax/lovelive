@@ -1,4 +1,3 @@
-
 import './App.css';
 import { useState } from "react";
 
@@ -32,7 +31,7 @@ function App() {
       <Volunteer open={open} volunt={volunt} />
       <Message />
       <LandingPage />
-      <About popUp={popUp} />
+      <About popUp={popUp} volunt={volunt} />
       <Program popUp={popUp} />
       <Education />
       <Gallery />

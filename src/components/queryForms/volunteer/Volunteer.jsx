@@ -15,15 +15,19 @@ const Volunteer = ({ volunt, open }) => {
             </div>
 
             <div className="volunteer-box">
-                <h3>Your donation today can go a long way to shape their future.</h3>
+                <h3>Kindly provide us with the following information.</h3>
                 <form>
-                    <input type="text" placeholder="First Name" />
-                    <input type="text" placeholder="Last Name" />
-                    <input type="text" placeholder="Phone Number" />
+                    <input type="text" placeholder="Full Name" />
+                    <input type="email" placeholder="Email Address" />
+                    <input type="numbers" placeholder="Phone Number" />
+                    <input type="calender" placeholder="Date of birth" />
+                    <input type="text" placeholder="Educational Qualification" />
 
-                    <select placeholder="Donation For" >
-                        <option value="scholarship">Scholarship</option>
-                        <option value="scholarship">Others</option>
+
+                    <select name="volunteer" >
+                        <option value="Any volunteer experience?">Any volunteer experience?</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
                     </select>
 
                     <button onClick={volunt}>Submit</button>
@@ -31,7 +35,7 @@ const Volunteer = ({ volunt, open }) => {
 
             </div>
 
-            <div className="botomBar">Thank you for your volunteer</div>
+            <div className="botomBar">Thanks for your humanity</div>
         </div>
     )
 }

@@ -63,18 +63,16 @@ a:focus {
   color: #fff;
   text-shadow: 0 0 2px #000;
   width: 50%;
-  line-height: 4.2rem;
+  line-height: 3.2rem;
   font-weight: 100;
   text-transform: capitalize;
 }
 
 .banner h1 span {
-  background-color: var(--themeRed);
   display: inline-block;
-  line-height: 3.5rem;
-  padding: 0 15px;
+  margin: 0.5rem;
   font-weight: 600;
-  border-radius: 5px;
+  font-size: 28px;
 }
 
 .banner p {
@@ -83,6 +81,7 @@ a:focus {
   text-shadow: 0 0 2px #000;
   margin-top: 10px;
   text-transform: capitalize;
+  font-size: 1rem;
 }
 
 .cards > div > button {
@@ -175,6 +174,29 @@ a:focus {
 @media screen and (max-width: 425px) {
   .banner > div > p,
   .banner > div > h1 {
-    width: 95%;
+    width: 100%;
+  }
+
+  .banner h1 span {
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner h1 span {
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 16px;
+  }
+
+  .banner .container p {
+    font-size: 13px;
+    padding-bottom: 4rem;
   }
 }

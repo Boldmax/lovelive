@@ -3,10 +3,22 @@
 #aboutSection .container .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 50px;
   position: relative;
   height: 245px;
+}
+
+#aboutSection .container .cards .ourValue {
+  width: 250px;
+  background-color: var(--themeRed);
+  padding: 35px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  height: 250px;
+  border: none;
+  transition: 0.3s;
 }
 
 #aboutSection .container .cards > div {
@@ -33,6 +45,12 @@
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+#aboutSection .container .cards .ourValue li {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
 #aboutSection .container .cards > div p {
@@ -83,4 +101,9 @@
     margin-top: 10px;
     padding: 35px;
   }
+
+  
+#aboutSection .container .cards .ourValue li {
+  font-size: 13px;
+}
 }

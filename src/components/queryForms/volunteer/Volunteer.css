@@ -11,7 +11,7 @@
 }
 
 .volunteer.active {
-  top: -100%;
+  left: -100%;
   z-index: 0;
 }
 
@@ -44,7 +44,7 @@
 .volunteer .volunteer-box input,
 .volunteer .volunteer-box select {
   width: 70%;
-  margin: 15px;
+  margin: 10px;
   height: 2.5rem;
   border: 2px solid #000;
   font-size: 1rem;
@@ -119,12 +119,31 @@
   }
 
   .volunteer.active {
-    top: -180%;
+    left: -180%;
   }
+
+  .volunteer .volunteer-box input,
+  .volunteer .volunteer-box select {
+    margin: 8px;
+    font-size: 0.8rem;
+    height: 2.1rem;
+  }
+
+  
 }
 
 @media screen and (max-width: 360px) {
   .volunteer.active {
-    top: -120%;
+    left: -120%;
+  }
+
+  .volunteer .volunteer-box input,
+  .volunteer .volunteer-box select {
+    margin: 5px;
+    font-size: 0.8rem;
+  }
+
+  .volunteer .volunteer-box form button {
+    margin: 1.2rem auto;
   }
 }
