@@ -48,4 +48,4 @@ const About = ({ popUp }) => {
     )
 }
 
-export default About
+export default About;

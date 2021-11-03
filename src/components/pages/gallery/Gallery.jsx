@@ -64,4 +64,4 @@ const Gallery = () => {
     )
 }
 
-export default Gallery
+export default Gallery;
