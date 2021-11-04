@@ -32,7 +32,7 @@ const LandingPage = () => {
                                 <a href="#progressSection" onClick={navShow}>Program</a>
                             </li>
                             <li>
-                                <a href="#educationSection" onClick={navShow}>Education</a>
+                                <a href="#educationSection" onClick={navShow}>Webinars</a>
                             </li>
                             <li>
                                 <a href="#gallerySection" onClick={navShow}>Gallery</a>
@@ -50,9 +50,10 @@ const LandingPage = () => {
                 <h1>Livelove Foundation  <span>...we live to love, we love to live...</span></h1>
                 <p>
                     effect of sexual assault, domestic violence and child abuse are detrimental and
-                    could be fatal in some cases. Our society will be a better place to live as an individual or a community if we join
-                    hands together to prevent the occurence, address the incident as well as give support to survivors
-                    in their recovery process and ensure they can stand as loved and accepted members of the society.
+                    could be fatal in some cases. Our society will be a better place to live as an
+                     individual or a community if we join hands together to prevent the occurence,
+                      address the incident as well as give support to survivors in their recovery
+                     process and ensure they can stand as loved and accepted members of the society.
                 </p>
 
                 {/* <p>"We are on mission to build a community of young people living purposefully and in all areas of life"</p> */}

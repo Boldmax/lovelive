@@ -5,17 +5,7 @@ const About = ({ popUp, volunt }) => {
         <section className="fullContainer" id="aboutSection">
             <div className="container">
                 <h2 className="sectionTitle"> About us</h2>
-                {/*                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Officia ut tempore voluptatibus. Distinctio adipisci officia
-                    cupiditate earum dolores quaerat nisi alias omnis perferendis
-                    aliquid deleniti necessitatibus, nam ab quo cum!
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Ducimus veritatis asperiores accusamus,
-                    sapiente explicabo esse atque expedita ipsam porro.
-                    Voluptatibus assumenda dignissimos vero excepturi
-                    voluptatum, ratione unde inventore quibusdam nam?
-            </p> */}
+
                 <div className="cards">
                     <div className="ourValue">
                         <div className="title">

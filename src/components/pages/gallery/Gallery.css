@@ -1,4 +1,8 @@
 /* --- gallery start --*/
+#gallerySection{
+  background-color: var(--grey);
+}
+
 .gallery .galleryContainer {
   column-count: 4;
   column-gap: 20px;
@@ -18,7 +22,6 @@
 
 .gallery .galleryContainer .title {
   position: absolute;
-  background-color: var(--grey);
   padding: 5px;
   margin: 5px;
   border-radius: 8px;

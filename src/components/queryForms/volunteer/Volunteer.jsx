@@ -20,7 +20,7 @@ const Volunteer = ({ volunt, open }) => {
                     <input type="text" placeholder="Full Name" />
                     <input type="email" placeholder="Email Address" />
                     <input type="numbers" placeholder="Phone Number" />
-                    <input type="calender" placeholder="Date of birth" />
+                    <input type="date" placeholder="Date of birth" />
                     <input type="text" placeholder="Educational Qualification" />
 
 

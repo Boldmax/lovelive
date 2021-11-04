@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from "react";
 
 import About from './components/pages/about/About';
-import Education from './components/pages/education/Education';
+import Education from './components/pages/education/Webiner';
 import Footer from './components/pages/footer/Footer';
 import Gallery from './components/pages/gallery/Gallery';
 import Join from './components/pages/join/Join';
