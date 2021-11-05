@@ -9,7 +9,7 @@ const BlogPage = () => {
                 <div className="cards">
                     {blogData.map((data, index) => {
                         return <div className="blogBox" key={index}>
-                            <img src={data.img} />
+                            <img src={data.img} alt="blog_image" />
                             <div className="title">
                                 <h3>{data.Title}</h3>
                             </div>
