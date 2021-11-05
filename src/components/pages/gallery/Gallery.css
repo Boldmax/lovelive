@@ -4,20 +4,23 @@
 }
 
 .gallery .galleryContainer {
-  column-count: 4;
-  column-gap: 20px;
+  width: 100%;
 }
 
 .gallery .galleryContainer .item {
   position: relative;
-  margin-bottom: 20px;
+  margin: 10px;
   overflow: hidden;
+  transition: 0.3s;
+  height: 300px;
+  width: 400px;
+  border-radius: 10%;
 }
 
 .gallery .galleryContainer img {
   width: 100%;
   display: block;
-  transition: 0.4s;
+  border-radius: 10%;
 }
 
 .gallery .galleryContainer .title {
@@ -36,12 +39,9 @@
   opacity: 1;
 }
 
-.gallery .galleryContainer .item:hover img {
-  transform: scale(1.2);
-}
-
 @media screen and (max-width: 768px) {
   .gallery .galleryContainer {
-    column-count: 2;
+    height: 100%;
+    width: 100%;
   }
 }
