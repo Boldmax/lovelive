@@ -78,6 +78,11 @@
   #aboutSection .container .cards > div {
     margin: 10px 0;
   }
+
+  #aboutSection .container .cards > div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {

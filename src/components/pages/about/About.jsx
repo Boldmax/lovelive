@@ -50,7 +50,7 @@ const About = ({ popUp, volunt }) => {
                         <div className="title">
                             <h3>Give donation</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. consectetur, adipisicing elit</p>
                         <button onClick={popUp}>donate now</button>
                     </div>
 
@@ -66,7 +66,7 @@ const About = ({ popUp, volunt }) => {
                         <div className="title">
                             <h3>Report a case</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. consectetur, adipisicing </p>
                         <button onClick={popUp}>Report now</button>
                     </div>
                 </div>

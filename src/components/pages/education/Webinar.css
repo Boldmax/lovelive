@@ -139,12 +139,16 @@
 
 @media screen and (max-width: 1080px) {
   .container .cards {
-    justify-content: space-around;
+    justify-content: space-between;
     height: auto;
   }
 
   .container .cards > div {
     margin: 10px 0;
+  }
+
+  .rec .rec-arrow {
+    display: none;
   }
 }
 
@@ -168,8 +172,12 @@
   }
 
   .container .cards > div .donationBox {
-    width: 320px;
-    height: 320px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .rec .rec-arrow {
+    display: none;
   }
 }
 
