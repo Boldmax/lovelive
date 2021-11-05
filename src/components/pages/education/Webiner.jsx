@@ -1,13 +1,7 @@
 import "./Webinar.css";
-import Carousel from 'react-elastic-carousel'
+import Carousel from 'react-elastic-carousel';
+import data from "./webData";
 
-import web1 from "../images/webinars/web1.jpg";
-import web2 from "../images/webinars/web2.jpg";
-import web3 from "../images/webinars/web3.jpg";
-import web4 from "../images/webinars/web4.jpg";
-import web5 from "../images/webinars/web5.jpg";
-import web6 from "../images/webinars/web6.jpg";
-/* import web7 from "../images/webinars/web7.jpg"; */
 
 const Webinar = () => {
 
@@ -24,35 +18,13 @@ const Webinar = () => {
                 <div className="sectionTitle">Webiners</div>
                 <div className="cards">
                     <Carousel breakPoints={breakpoints}>
-                        <div className="donationBox">
-                            <img src={web1} alt="webinars" />
-                            {/* <button>donate now</button> */}
-                        </div>
+                        {data.map((image, index) => {
+                            return <div className="donationBox" key={index}>
+                                <img src={image.img} alt="webinars" />
+                                {/* <button>donate now</button> */}
+                            </div>
+                        })}
 
-                        <div className="donationBox">
-                            <img src={web2} alt="webinars" />
-                            {/* <button>donate now</button> */}
-                        </div>
-
-                        <div className="donationBox">
-                            <img src={web3} alt="webinars" />
-                            {/* <button>donate now</button> */}
-                        </div>
-
-                        <div className="donationBox">
-                            <img src={web4} alt="webinars" />
-                            {/* <button>donate now</button> */}
-                        </div>
-
-                        <div className="donationBox">
-                            <img src={web5} alt="webinars" />
-                            {/* <button>donate now</button> */}
-                        </div>
-
-                        <div className="donationBox">
-                            <img src={web6} alt="webinars" />
-                            {/* <button>donate now</button> */}
-                        </div>
                     </Carousel>
                 </div>
             </div>

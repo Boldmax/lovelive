@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { FaFacebook, FaTwitter, FaInstagram, FaTelegram } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp, FaInstagram, FaTelegram } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -40,16 +40,6 @@ const Footer = () => {
                                 <li><a href="#footer">Payment Options</a></li>
                             </ul>
                         </div>
-                        {/* 
-                        <div className="footer-col">
-                            <h4>Online shop</h4>
-                            <ul>
-                                <li><a href="#menu">Children shoes</a></li>
-                                <li><a href="#menu">Ladies shoes</a></li>
-                                <li><a href="#menu">Sport shoes</a></li>
-                                <li><a href="#menu">Office shoes</a></li>
-                            </ul>
-                        </div> */}
 
                         <div className="footer-col">
                             <h4>Follow us</h4>
@@ -57,7 +47,7 @@ const Footer = () => {
                                 <a href="https://www.facebook.com/101732601569908?referrer=whatsapp"><FaFacebook className=" social" /></a>
                                 <a href="https://t.me/livloffoundation"><FaTelegram className=" social" /></a>
                                 <a href="https://www.instagram.com/p/CBEOC7gJ0Mz/?igshid=op3apitmuh9"><FaInstagram className=" social" /></a>
-                                <a href="https://twitter.com"><FaTwitter className=" social" /></a>
+                                <a href="https://twitter.com"><FaWhatsapp className=" social" /></a>
                             </div>
                         </div>
 
