@@ -12,15 +12,15 @@
   margin: 10px;
   overflow: hidden;
   transition: 0.3s;
-  height: 300px;
-  width: 400px;
-  border-radius: 10%;
+  height: 30.125rem;
+  width: 32.25rem;
+  border-radius: 5%;
 }
 
 .gallery .galleryContainer img {
   width: 100%;
   display: block;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .gallery .galleryContainer .title {
@@ -43,5 +43,10 @@
   .gallery .galleryContainer {
     height: 100%;
     width: 100%;
+  }
+
+  .gallery .galleryContainer .item {
+    height: 350px;
+    width: 400px;
   }
 }

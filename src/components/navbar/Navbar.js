@@ -1,9 +1,9 @@
-import "./LandingPage.css";
-import Logo from "../images/logo.jpg";
+import "./Navbar.css";
+import Logo from "../pages/images/logo.jpg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const LandingPage = () => {
+const Navbar = () => {
 
     const [toggle, setToggle] = useState(false);
     const navShow = () => {
@@ -14,7 +14,7 @@ const LandingPage = () => {
     toggle ? navbarClas.push("active") : navbarClas.join(" ")
 
     return (
-        <div className="fullContainer banner" id="homeSection">
+        <div>
             <header>
                 <div className="container">
                     <div className="logo">
@@ -48,21 +48,8 @@ const LandingPage = () => {
                     </nav>
                 </div>
             </header>
-
-
-            <div className="container">
-                <h1>Livelove Foundation  <span>...we live to love, we love to live...</span></h1>
-                <p>
-                    effect of sexual assault, domestic violence and child abuse are detrimental and
-                    could be fatal in some cases. Our society will be a better place to live as an
-                    individual or a community if we join hands together to prevent the occurence,
-                    address the incident as well as give support to survivors in their recovery
-                    process and ensure they can stand as loved and accepted members of the society.
-                </p>
-            </div>
-
         </div>
     )
 }
 
-export default LandingPage;
+export default Navbar;

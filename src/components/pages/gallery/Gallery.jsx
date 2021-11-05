@@ -6,9 +6,9 @@ const Gallery = () => {
 
     const breakpoints = [
         { width: 1, itemsToShow: 1 },
-        { width: 425, itemsToShow: 2 },
-        { width: 800, itemsToShow: 3 },
-        { width: 1280, itemsToShow: 4 }
+        { width: 425, itemsToShow: 1 },
+        { width: 800, itemsToShow: 1 },
+        { width: 1280, itemsToShow: 1 }
     ]
 
     return (

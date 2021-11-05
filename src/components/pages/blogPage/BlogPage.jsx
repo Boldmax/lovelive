@@ -1,8 +1,12 @@
 import "./BlogPage.css";
 import blogData from "./blogData";
+import Footer from '../footer/Footer';
+import Navbar from "../../navbar/Navbar";
 
 const BlogPage = () => {
     return (
+        <>
+        <Navbar />
         <section className="fullContainer" id="blogSection">
             <div className="container">
                 <h1 className="sectionTitle">Blog Page</h1>
@@ -19,9 +23,10 @@ const BlogPage = () => {
                     })}
 
                 </div>
-
             </div>
         </section>
+        <Footer />
+        </>
     )
 }
 

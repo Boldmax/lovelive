@@ -5,19 +5,37 @@ import blog3 from "../images/blog/blog3.jpg";
 
 const data = [
     {
-        Title: "New Title",
+        Title: "Article Title",
         Author: "Oluwatosin Alabi",
         Post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni earum dolor sapiente atque commodi, laudantium ut doloribus magnam, tempore obcaecati repellendus corporis similique illum ullam enim, dolorem neque eveniet?",
         img: blog1
     },
     {
-        Title: "New Title",
+        Title: "Article Title",
         Author: "Oluwatosin Alabi",
         Post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni earum dolor sapiente atque commodi, laudantium ut doloribus magnam, tempore obcaecati repellendus corporis similique illum ullam enim, dolorem neque eveniet?",
         img: blog2
     },
     {
-        Title: "New Title",
+        Title: "Article Title",
+        Author: "Oluwatosin Alabi",
+        Post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni earum dolor sapiente atque commodi, laudantium ut doloribus magnam, tempore obcaecati repellendus corporis similique illum ullam enim, dolorem neque eveniet?",
+        img: blog3
+    },
+    {
+        Title: "Article Title",
+        Author: "Oluwatosin Alabi",
+        Post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni earum dolor sapiente atque commodi, laudantium ut doloribus magnam, tempore obcaecati repellendus corporis similique illum ullam enim, dolorem neque eveniet?",
+        img: blog1
+    },
+    {
+        Title: "Article Title",
+        Author: "Oluwatosin Alabi",
+        Post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni earum dolor sapiente atque commodi, laudantium ut doloribus magnam, tempore obcaecati repellendus corporis similique illum ullam enim, dolorem neque eveniet?",
+        img: blog2
+    },
+    {
+        Title: "Article Title",
         Author: "Oluwatosin Alabi",
         Post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni earum dolor sapiente atque commodi, laudantium ut doloribus magnam, tempore obcaecati repellendus corporis similique illum ullam enim, dolorem neque eveniet?",
         img: blog3
