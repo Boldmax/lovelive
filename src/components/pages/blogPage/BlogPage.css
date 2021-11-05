@@ -1,0 +1,76 @@
+#blogSection .container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    /* height: 245px; */
+  }
+  
+  #blogSection .container .cards .blogBox img {
+    width: 320px;
+    /* padding: 30px; */
+   /*  text-align: center; */
+    border-radius: 5%;
+    height: 300px;
+  }
+  
+  #blogSection .container .cards > div {
+    width: 350px;
+    padding: 35px;
+    background-color: var(--grey);
+    color: #444;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    height: auto;
+  }
+  
+/*   #blogSection .container .cards > div {
+    margin-top: -20px;
+    padding: 55px;
+    height: auto;
+  } */
+  
+  #blogSection .container .cards > div .title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  #blogSection .container .cards .blogBox p {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  
+  #blogSection .container .cards > div p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  
+  .cards > div > button {
+    border-radius: 1px 15px 15px 15px;
+  }
+  
+  .cards > div > button:hover {
+    color: #000;
+    border: 1px solid var(--themeRed);
+    background-color: #ccc;
+    border-radius: 15px 15px 1px 15px;
+  }
+  
+  @media screen and (max-width: 1080px) {
+    #blogSection .container .cards {
+      justify-content: space-around;
+      height: auto;
+    }
+  
+    #blogSection .container .cards > div {
+      margin: 10px 0;
+    }
+  
+    #blogSection .container .cards > div p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }

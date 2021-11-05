@@ -1,5 +1,6 @@
 import "./Footer.css";
 import { FaFacebook, FaWhatsapp, FaInstagram, FaTelegram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -35,7 +36,7 @@ const Footer = () => {
                             <h4>Support</h4>
                             <ul>
                                 <li><a href="#contact">FAQ</a></li>
-                                <li><a href="#footer;">Blog</a></li>
+                                <li><Link to="./blog">Blog</Link></li>
                                 <li><a href="#footer">Report Cases</a></li>
                                 <li><a href="#footer">Payment Options</a></li>
                             </ul>
@@ -47,7 +48,7 @@ const Footer = () => {
                                 <a href="https://www.facebook.com/101732601569908?referrer=whatsapp"><FaFacebook className=" social" /></a>
                                 <a href="https://t.me/livloffoundation"><FaTelegram className=" social" /></a>
                                 <a href="https://www.instagram.com/p/CBEOC7gJ0Mz/?igshid=op3apitmuh9"><FaInstagram className=" social" /></a>
-                                <a href="https://twitter.com"><FaWhatsapp className=" social" /></a>
+                                <a href="https://chat.whatsapp.com/HxQMUvst2id9lS5HHahOI1"><FaWhatsapp className=" social" /></a>
                             </div>
                         </div>
 
