@@ -52,6 +52,11 @@
   .cards > div > button {
     border-radius: 1px 15px 15px 15px;
   }
+
+  .cards > div > button a {
+    text-decoration: none;
+    color: #fff;
+  }
   
   .cards > div > button:hover {
     color: #000;

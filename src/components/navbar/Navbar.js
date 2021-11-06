@@ -18,28 +18,28 @@ const Navbar = () => {
             <header>
                 <div className="container">
                     <div className="logo">
-                        <img src={Logo} alt="NGO logo" />
+                        <Link to="/"> <img src={Logo} alt="NGO logo" /></Link>
                     </div>
 
                     <nav onClick={navShow}>
                         <ul className={navbarClas.join(" ")} >
                             <li>
-                                <a href="#homeSection" onClick={navShow}>Home</a>
+                                <Link to="/" onClick={navShow}>Home</Link>
                             </li>
                             <li>
-                                <a href="#aboutSection" onClick={navShow}>About Us</a>
+                                <Link to="/" onClick={navShow}>About Us</Link>
                             </li>
                             <li>
-                                <a href="#progressSection" onClick={navShow}>Program</a>
+                                <Link to="/" onClick={navShow}>Program</Link>
                             </li>
                             <li>
-                                <a href="#educationSection" onClick={navShow}>Webinars</a>
+                                <Link to="/" onClick={navShow}>Webinars</Link>
                             </li>
                             <li>
-                                <a href="#gallerySection" onClick={navShow}>Gallery</a>
+                                <Link to="/" onClick={navShow}>Gallery</Link>
                             </li>
                             <li>
-                                <a href="#joinSection" onClick={navShow}>Join Us</a>
+                                <Link to="/" onClick={navShow}>Join Us</Link>
                             </li>
                             <li>
                                 <Link to="./blog" onClick={navShow}>Blog</Link>

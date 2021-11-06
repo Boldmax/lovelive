@@ -12,11 +12,11 @@ import web9 from "../images/webinars/web9.jpg";
 const data = [
     {
         "Btn": "one",
-        img: web1
+        img: web9
     },
     {
         "Btn1": "two",
-        img: web2
+        img: web1
     },
     {
         "Btn2": "three",
@@ -44,7 +44,7 @@ const data = [
     },
     {
         "Btn3": "seven",
-        img: web9
+        img: web2
     }
 ]
 

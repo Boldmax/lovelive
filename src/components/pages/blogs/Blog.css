@@ -1,0 +1,14 @@
+
+
+.sectionTitle:hover {
+  margin: 0 auto 50px;
+}
+
+
+.container h4{
+    padding-bottom: 1.5rem;
+}
+
+.container > div > article{
+    text-align: justify;
+}
